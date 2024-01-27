@@ -8,3 +8,4 @@ pmdarima
 psycopg2-binary
 apache-airflow-providers-postgres
 openpyxl
+sqlalchemy

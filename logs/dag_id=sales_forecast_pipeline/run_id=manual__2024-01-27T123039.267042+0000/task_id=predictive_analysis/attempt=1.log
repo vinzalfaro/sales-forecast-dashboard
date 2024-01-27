@@ -1,0 +1,13 @@
+[2024-01-27T12:32:52.750+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_forecast_pipeline.predictive_analysis manual__2024-01-27T12:30:39.267042+00:00 [queued]>
+[2024-01-27T12:32:52.760+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_forecast_pipeline.predictive_analysis manual__2024-01-27T12:30:39.267042+00:00 [queued]>
+[2024-01-27T12:32:52.761+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-01-27T12:32:52.781+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): predictive_analysis> on 2024-01-27 12:30:39.267042+00:00
+[2024-01-27T12:32:52.793+0000] {standard_task_runner.py:60} INFO - Started process 27997 to run task
+[2024-01-27T12:32:52.796+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'sales_forecast_pipeline', 'predictive_analysis', 'manual__2024-01-27T12:30:39.267042+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/sales_forecast_pipeline.py', '--cfg-path', '/tmp/tmpcs_nbb3o']
+[2024-01-27T12:32:52.798+0000] {standard_task_runner.py:88} INFO - Job 31: Subtask predictive_analysis
+[2024-01-27T12:32:52.857+0000] {task_command.py:423} INFO - Running <TaskInstance: sales_forecast_pipeline.predictive_analysis manual__2024-01-27T12:30:39.267042+00:00 [running]> on host fb667f005a5b
+[2024-01-27T12:32:52.965+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sales_forecast_pipeline' AIRFLOW_CTX_TASK_ID='predictive_analysis' AIRFLOW_CTX_EXECUTION_DATE='2024-01-27T12:30:39.267042+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-27T12:30:39.267042+00:00'
+[2024-01-27T12:33:30.865+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-01-27T12:33:30.881+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=sales_forecast_pipeline, task_id=predictive_analysis, execution_date=20240127T123039, start_date=20240127T123252, end_date=20240127T123330
+[2024-01-27T12:33:30.961+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-01-27T12:33:30.992+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
