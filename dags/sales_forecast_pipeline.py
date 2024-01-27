@@ -1,9 +1,8 @@
-import os
 from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
-from etl import extract_and_transform
+from etl import extract_and_transform, load_to_database
 from eda import descriptive_analysis
 from forecast import predictive_analysis
 
@@ -31,4 +30,10 @@ with local_workflow:
         python_callable=predictive_analysis
     )
 
-    extract_and_transform_task >> descriptive_analysis_task >> predictive_analysis_task
+    load_to_database_task = PythonOperator(
+        task_id="load_to_database",
+        python_callable=load_to_database
+    )
+
+
+    extract_and_transform_task >> descriptive_analysis_task >> predictive_analysis_task >> load_to_database_task
