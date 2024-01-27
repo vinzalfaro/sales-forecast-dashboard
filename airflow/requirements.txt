@@ -1,9 +1,0 @@
-numpy
-pandas
-matplotlib
-seaborn
-statsmodels
-sktime
-pmdarima
-psycopg2-binary
-apache-airflow-providers-postgres

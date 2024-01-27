@@ -1,0 +1,41 @@
+[2024-01-27T02:58:31.326+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_forecast_pipeline.descriptive_analysis manual__2024-01-27T02:58:05.254850+00:00 [queued]>
+[2024-01-27T02:58:31.346+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_forecast_pipeline.descriptive_analysis manual__2024-01-27T02:58:05.254850+00:00 [queued]>
+[2024-01-27T02:58:31.347+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-01-27T02:58:31.385+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): descriptive_analysis> on 2024-01-27 02:58:05.254850+00:00
+[2024-01-27T02:58:31.397+0000] {standard_task_runner.py:60} INFO - Started process 5471 to run task
+[2024-01-27T02:58:31.401+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'sales_forecast_pipeline', 'descriptive_analysis', 'manual__2024-01-27T02:58:05.254850+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/sales_forecast_pipeline.py', '--cfg-path', '/tmp/tmp6yl697x0']
+[2024-01-27T02:58:31.402+0000] {standard_task_runner.py:88} INFO - Job 11: Subtask descriptive_analysis
+[2024-01-27T02:58:31.457+0000] {task_command.py:423} INFO - Running <TaskInstance: sales_forecast_pipeline.descriptive_analysis manual__2024-01-27T02:58:05.254850+00:00 [running]> on host 9217c70edf45
+[2024-01-27T02:58:31.558+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sales_forecast_pipeline' AIRFLOW_CTX_TASK_ID='descriptive_analysis' AIRFLOW_CTX_EXECUTION_DATE='2024-01-27T02:58:05.254850+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-27T02:58:05.254850+00:00'
+[2024-01-27T02:58:36.663+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/eda.py:38 RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+[2024-01-27T02:58:40.750+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/eda.py", line 155, in descriptive_analysis
+    plt.savefig("results/eda/sales_pareto.png")
+  File "/home/airflow/.local/lib/python3.8/site-packages/matplotlib/pyplot.py", line 1023, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/matplotlib/figure.py", line 3378, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/matplotlib/backend_bases.py", line 2366, in print_figure
+    result = print_method(
+  File "/home/airflow/.local/lib/python3.8/site-packages/matplotlib/backend_bases.py", line 2232, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File "/home/airflow/.local/lib/python3.8/site-packages/matplotlib/backends/backend_agg.py", line 509, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/home/airflow/.local/lib/python3.8/site-packages/matplotlib/backends/backend_agg.py", line 458, in _print_pil
+    mpl.image.imsave(
+  File "/home/airflow/.local/lib/python3.8/site-packages/matplotlib/image.py", line 1689, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/PIL/Image.py", line 2436, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'results/eda/sales_pareto.png'
+[2024-01-27T02:58:40.787+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=sales_forecast_pipeline, task_id=descriptive_analysis, execution_date=20240127T025805, start_date=20240127T025831, end_date=20240127T025840
+[2024-01-27T02:58:40.817+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 11 for task descriptive_analysis ([Errno 2] No such file or directory: 'results/eda/sales_pareto.png'; 5471)
+[2024-01-27T02:58:40.863+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-27T02:58:40.902+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

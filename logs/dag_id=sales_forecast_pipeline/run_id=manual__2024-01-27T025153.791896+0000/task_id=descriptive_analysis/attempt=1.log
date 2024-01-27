@@ -1,0 +1,28 @@
+[2024-01-27T02:52:51.807+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sales_forecast_pipeline.descriptive_analysis manual__2024-01-27T02:51:53.791896+00:00 [queued]>
+[2024-01-27T02:52:51.817+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sales_forecast_pipeline.descriptive_analysis manual__2024-01-27T02:51:53.791896+00:00 [queued]>
+[2024-01-27T02:52:51.818+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-01-27T02:52:51.851+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): descriptive_analysis> on 2024-01-27 02:51:53.791896+00:00
+[2024-01-27T02:52:51.876+0000] {standard_task_runner.py:60} INFO - Started process 2259 to run task
+[2024-01-27T02:52:51.881+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'sales_forecast_pipeline', 'descriptive_analysis', 'manual__2024-01-27T02:51:53.791896+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/sales_forecast_pipeline.py', '--cfg-path', '/tmp/tmp9rm2_5xs']
+[2024-01-27T02:52:51.882+0000] {standard_task_runner.py:88} INFO - Job 9: Subtask descriptive_analysis
+[2024-01-27T02:52:51.959+0000] {task_command.py:423} INFO - Running <TaskInstance: sales_forecast_pipeline.descriptive_analysis manual__2024-01-27T02:51:53.791896+00:00 [running]> on host 9217c70edf45
+[2024-01-27T02:52:52.109+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sales_forecast_pipeline' AIRFLOW_CTX_TASK_ID='descriptive_analysis' AIRFLOW_CTX_EXECUTION_DATE='2024-01-27T02:51:53.791896+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-27T02:51:53.791896+00:00'
+[2024-01-27T02:52:52.115+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/eda.py", line 11, in descriptive_analysis
+    in_df = pd.read_pickle("data/processed/clean_df.pickle")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/pickle.py", line 179, in read_pickle
+    with get_handle(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/clean_df.pickle'
+[2024-01-27T02:52:52.142+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=sales_forecast_pipeline, task_id=descriptive_analysis, execution_date=20240127T025153, start_date=20240127T025251, end_date=20240127T025252
+[2024-01-27T02:52:52.180+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 9 for task descriptive_analysis ([Errno 2] No such file or directory: 'data/processed/clean_df.pickle'; 2259)
+[2024-01-27T02:52:52.219+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-27T02:52:52.259+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
