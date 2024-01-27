@@ -1,12 +1,15 @@
 import os
 import numpy as np
 import pandas as pd
+from sqlalchemy import create_engine
+
 
 def extract(path: str) -> pd.DataFrame:
     df = pd.read_excel(path, nrows=11)
     date_loc = np.where(df.values == "DATE")
     header_loc = (date_loc[0][0] + 1, date_loc[1][0])
     return pd.read_excel(path, header=header_loc[0]).iloc[:, header_loc[1]:]
+
 
 def prepare_data(df: pd.DataFrame) -> pd.DataFrame:
     item_desc_loc = np.where(df.columns == "ITEM DESCRIPTION")[0][0]
@@ -26,6 +29,7 @@ def prepare_data(df: pd.DataFrame) -> pd.DataFrame:
     final_df = final_df.dropna(subset=["DATE", "AMOUNT_PHP"])
     final_df["DATE"] = pd.to_datetime(final_df["DATE"])
     return final_df
+
 
 def extract_and_transform():
     # Set absolute paths based on your folder structure
@@ -61,3 +65,25 @@ def extract_and_transform():
     clean_df.to_csv(os.path.join(processed_dir, "clean_df.csv"), index=False)
 
 
+def load_to_database():
+
+    files = [
+        '/opt/airflow/dags/results/item_id_mapping.csv',
+        '/opt/airflow/dags/data/processed/clean_df.csv',
+        '/opt/airflow/dags/results/forecasts/test_data_forecasts.csv',
+        '/opt/airflow/dags/results/forecasts/test_data_model_metrics.csv',
+        '/opt/airflow/dags/results/EOQ_ROP_2021_annual.csv'
+        ]
+    
+    dfs = [pd.read_csv(file) for file in files]
+    db_tables = [file.split("/")[-1].replace(".csv", "") for file in files]
+
+    connection_uri = "postgresql+psycopg2://airflow:airflow@postgres:5432/airflow"
+    db_engine = create_engine(connection_uri)
+
+    for i in range(len(dfs)):
+        dfs[i].to_sql(
+            name = db_tables[i],
+            con = db_engine,
+            if_exists = "replace",
+            index = False)
