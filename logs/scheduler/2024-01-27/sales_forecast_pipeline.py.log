@@ -2368,3 +2368,399 @@ Please take a look at these docs to improve your DAG import time:
 [2024-01-27T13:07:01.587+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:07:01.587+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2024-01-27T13:07:01.605+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:07:01.604+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
 [2024-01-27T13:07:01.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.579 seconds
+[2024-01-27T13:07:31.868+0000] {processor.py:161} INFO - Started process (PID=47817) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:07:31.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:07:31.870+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:07:31.870+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:07:32.338+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:07:32.338+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-bnsp94j4 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:07:32.512+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:07:32.512+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:07:33.307+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:07:33.326+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:07:33.324+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:07:33.525+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:07:33.525+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:07:33.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.689 seconds
+[2024-01-27T13:08:03.653+0000] {processor.py:161} INFO - Started process (PID=48128) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:08:03.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:08:03.656+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:08:03.655+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:08:04.154+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:08:04.154+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-btyht1ia because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:08:04.345+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:08:04.344+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:08:05.307+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:08:05.324+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:08:05.323+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:08:05.346+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:08:05.345+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:08:05.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.722 seconds
+[2024-01-27T13:08:35.446+0000] {processor.py:161} INFO - Started process (PID=48452) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:08:35.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:08:35.450+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:08:35.449+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:08:35.978+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:08:35.978+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-s8dmq6k_ because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:08:36.158+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:08:36.158+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:08:37.035+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:08:37.051+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:08:37.051+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:08:37.076+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:08:37.076+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:08:37.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.656 seconds
+[2024-01-27T13:09:07.166+0000] {processor.py:161} INFO - Started process (PID=48777) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:09:07.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:09:07.169+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:09:07.168+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:09:07.646+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:09:07.646+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-opl0q70y because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:09:07.826+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:09:07.825+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:09:08.596+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:09:08.736+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:09:08.736+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:09:08.755+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:09:08.755+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:09:08.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.629 seconds
+[2024-01-27T13:09:39.499+0000] {processor.py:161} INFO - Started process (PID=49089) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:09:39.501+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:09:39.501+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:09:39.501+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:09:40.074+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:09:40.074+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-mw6ev43h because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:09:40.325+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:09:40.324+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:09:41.204+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:09:41.223+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:09:41.223+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:09:41.243+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:09:41.243+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:09:41.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.776 seconds
+[2024-01-27T13:10:12.071+0000] {processor.py:161} INFO - Started process (PID=49410) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:10:12.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:10:12.073+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:10:12.073+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:10:12.597+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:10:12.597+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-fv02_qhy because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:10:12.808+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:10:12.808+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:10:13.859+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:10:13.884+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:10:13.883+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:10:13.908+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:10:13.908+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:10:13.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.864 seconds
+[2024-01-27T13:10:44.092+0000] {processor.py:161} INFO - Started process (PID=49721) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:10:44.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:10:44.097+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:10:44.096+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:10:44.620+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:10:44.619+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-n6uln7cf because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:10:44.817+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:10:44.816+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:10:46.032+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:10:46.051+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:10:46.051+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:10:46.072+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:10:46.072+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:10:46.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 2.012 seconds
+[2024-01-27T13:11:21.944+0000] {processor.py:161} INFO - Started process (PID=50030) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:11:21.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:11:21.964+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:11:21.963+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:11:30.282+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:11:30.282+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-7v5qav5j because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:11:32.290+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:11:32.282+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:11:36.614+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:11:36.653+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:11:36.652+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:11:36.725+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:11:36.725+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:11:36.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 14.840 seconds
+[2024-01-27T13:12:07.366+0000] {processor.py:161} INFO - Started process (PID=50388) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:12:07.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:12:07.377+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:12:07.376+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:12:08.687+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:12:08.686+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-kk2h7sch because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:12:08.991+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:12:08.990+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:12:10.559+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:12:10.583+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:12:10.582+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:12:10.632+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:12:10.632+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:12:10.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 3.320 seconds
+[2024-01-27T13:12:41.164+0000] {processor.py:161} INFO - Started process (PID=50766) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:12:41.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:12:41.168+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:12:41.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:12:42.012+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:12:42.012+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-da_yv564 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:12:42.430+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:12:42.429+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:12:43.686+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:12:43.713+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:12:43.712+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:12:43.741+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:12:43.740+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:12:43.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 2.618 seconds
+[2024-01-27T13:13:14.507+0000] {processor.py:161} INFO - Started process (PID=51112) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:13:14.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:13:14.509+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:13:14.509+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:13:15.085+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:13:15.085+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-lni8mvoq because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:13:15.272+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:13:15.271+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:13:16.087+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:13:16.103+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:13:16.102+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:13:16.126+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:13:16.125+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:13:16.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.645 seconds
+[2024-01-27T13:13:47.313+0000] {processor.py:161} INFO - Started process (PID=51336) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:13:47.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:13:47.318+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:13:47.317+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:13:48.050+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:13:48.050+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-kp45rraw because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:13:50.220+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:13:50.220+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:13:51.482+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:13:51.498+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:13:51.498+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:13:51.516+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:13:51.516+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:13:52.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 5.249 seconds
+[2024-01-27T13:14:23.341+0000] {processor.py:161} INFO - Started process (PID=51644) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:14:23.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:14:23.353+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:14:23.353+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:14:23.973+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:14:23.973+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-r6e7gkow because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:14:24.207+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:14:24.207+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:14:25.295+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:14:25.332+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:14:25.330+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:14:25.361+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:14:25.361+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:14:25.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 2.055 seconds
+[2024-01-27T13:14:55.547+0000] {processor.py:161} INFO - Started process (PID=51995) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:14:55.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:14:55.556+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:14:55.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:14:56.240+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:14:56.239+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-hkblqz46 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:14:56.483+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:14:56.482+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:14:57.604+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:14:57.623+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:14:57.622+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:14:57.646+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:14:57.646+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:14:57.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 2.135 seconds
+[2024-01-27T13:15:27.783+0000] {processor.py:161} INFO - Started process (PID=52346) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:15:27.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:15:27.788+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:15:27.788+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:15:28.426+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:15:28.425+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-x35f3i40 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:15:28.773+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:15:28.773+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:15:29.954+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:15:29.973+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:15:29.973+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:15:30.001+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:15:30.000+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:15:30.025+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 2.246 seconds
+[2024-01-27T13:16:00.814+0000] {processor.py:161} INFO - Started process (PID=52712) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:16:00.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:16:00.818+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:16:00.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:16:01.413+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:16:01.412+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-0yy8v_q9 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:16:01.673+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:16:01.673+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:16:02.995+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:16:03.016+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:16:03.016+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:16:03.041+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:16:03.040+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:16:03.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 2.263 seconds
+[2024-01-27T13:16:33.974+0000] {processor.py:161} INFO - Started process (PID=53083) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:16:33.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:16:33.976+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:16:33.976+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:16:34.629+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:16:34.629+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-y4x8444s because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:16:34.854+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:16:34.853+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:16:36.206+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:16:36.227+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:16:36.226+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:16:36.254+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:16:36.254+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:16:36.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 2.310 seconds
+[2024-01-27T13:17:06.428+0000] {processor.py:161} INFO - Started process (PID=53420) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:17:06.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:17:06.433+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:17:06.431+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:17:06.893+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:17:06.893+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-prbqztwk because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:17:07.072+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:17:07.072+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:17:07.908+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:17:07.924+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:17:07.924+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:17:07.946+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:17:07.946+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:17:07.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.546 seconds
+[2024-01-27T13:17:38.102+0000] {processor.py:161} INFO - Started process (PID=53737) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:17:38.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:17:38.104+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:17:38.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:17:38.557+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:17:38.556+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-qlr_rgs7 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:17:38.736+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:17:38.736+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:17:39.586+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:17:39.602+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:17:39.601+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:17:39.620+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:17:39.620+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:17:39.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.543 seconds
+[2024-01-27T13:18:10.563+0000] {processor.py:161} INFO - Started process (PID=54063) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:18:10.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:18:10.565+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:18:10.565+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:18:11.019+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:18:11.019+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-2tx25_ul because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:18:11.191+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:18:11.191+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:18:11.977+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:18:11.995+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:18:11.994+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:18:12.012+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:18:12.012+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:18:12.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.477 seconds
+[2024-01-27T13:18:42.262+0000] {processor.py:161} INFO - Started process (PID=54384) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:18:42.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:18:42.265+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:18:42.265+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:18:42.854+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:18:42.853+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-gcgd8s2j because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:18:43.088+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:18:43.088+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:18:44.012+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:18:44.034+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:18:44.033+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:18:44.060+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:18:44.060+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:18:44.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.826 seconds
+[2024-01-27T13:19:14.689+0000] {processor.py:161} INFO - Started process (PID=54710) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:19:14.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:19:14.691+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:19:14.691+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:19:15.117+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:19:15.116+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-gsqiggfn because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:19:15.315+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:19:15.314+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:19:16.390+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:19:16.407+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:19:16.406+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:19:16.426+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:19:16.426+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:19:16.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.762 seconds
+[2024-01-27T13:19:47.291+0000] {processor.py:161} INFO - Started process (PID=55022) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:19:47.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:19:47.293+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:19:47.293+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:19:47.784+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:19:47.783+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-lol8wyjk because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:19:47.994+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:19:47.993+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:19:48.961+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:19:48.977+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:19:48.976+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:19:48.995+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:19:48.995+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:19:49.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.729 seconds
+[2024-01-27T13:20:19.742+0000] {processor.py:161} INFO - Started process (PID=55333) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:20:19.743+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:20:19.744+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:20:19.744+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:20:20.232+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:20:20.231+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-_n1qw50v because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:20:20.438+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:20:20.438+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:20:21.287+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:20:21.302+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:20:21.301+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:20:21.319+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:20:21.319+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:20:21.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.600 seconds
+[2024-01-27T13:20:51.418+0000] {processor.py:161} INFO - Started process (PID=55645) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:20:51.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:20:51.421+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:20:51.420+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:20:51.895+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:20:51.895+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-gwqyhxc1 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:20:52.122+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:20:52.122+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:20:52.996+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:20:53.012+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:20:53.012+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:20:53.031+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:20:53.031+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:20:53.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.640 seconds
+[2024-01-27T13:21:23.142+0000] {processor.py:161} INFO - Started process (PID=55959) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:21:23.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:21:23.144+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:21:23.144+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:21:23.703+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:21:23.703+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-zdoxjpm5 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:21:23.931+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:21:23.931+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:21:24.988+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:21:25.005+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:21:25.005+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:21:25.025+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:21:25.025+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:21:25.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.912 seconds
+[2024-01-27T13:21:55.441+0000] {processor.py:161} INFO - Started process (PID=56267) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:21:55.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:21:55.444+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:21:55.443+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:21:55.966+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:21:55.966+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-5p6ui5hp because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:21:56.219+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:21:56.218+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:21:57.137+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:21:57.153+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:21:57.152+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:21:57.171+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:21:57.171+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:21:57.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.753 seconds
+[2024-01-27T13:22:27.663+0000] {processor.py:161} INFO - Started process (PID=56578) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:22:27.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:22:27.665+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:22:27.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:22:28.261+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:22:28.260+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-f_f5177z because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:22:28.489+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:22:28.488+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:22:29.525+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:22:29.540+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:22:29.539+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:22:29.556+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:22:29.556+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:22:29.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.927 seconds
+[2024-01-27T13:22:59.882+0000] {processor.py:161} INFO - Started process (PID=56897) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:22:59.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:22:59.884+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:22:59.884+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:23:00.414+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:23:00.414+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-mqggeq4i because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:23:00.684+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:23:00.684+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:23:01.755+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:23:01.777+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:23:01.775+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:23:01.801+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:23:01.800+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:23:01.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.957 seconds
+[2024-01-27T13:23:31.977+0000] {processor.py:161} INFO - Started process (PID=57205) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:23:31.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:23:31.980+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:23:31.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:23:32.552+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:23:32.552+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-3_5ce46l because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:23:32.781+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:23:32.781+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:23:33.643+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:23:33.664+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:23:33.663+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:23:33.686+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:23:33.686+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:23:33.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.734 seconds
+[2024-01-27T13:24:03.940+0000] {processor.py:161} INFO - Started process (PID=57522) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:24:03.941+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:24:03.943+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:24:03.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:24:04.558+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:24:04.557+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-63jvsf1m because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:24:04.769+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:24:04.769+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:24:05.806+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:24:05.825+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:24:05.824+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:24:05.849+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:24:05.849+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:24:05.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.940 seconds
+[2024-01-27T13:24:36.457+0000] {processor.py:161} INFO - Started process (PID=57838) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:24:36.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:24:36.459+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:24:36.459+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:24:36.928+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:24:36.927+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-0ud4b4jb because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:24:37.160+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:24:37.159+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:24:38.103+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:24:38.127+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:24:38.126+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:24:38.152+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:24:38.152+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:24:38.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.719 seconds
+[2024-01-27T13:25:08.764+0000] {processor.py:161} INFO - Started process (PID=58155) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:25:08.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:25:08.767+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:25:08.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:25:09.322+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:25:09.322+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-v6lppidf because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:25:09.516+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:25:09.515+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:25:10.516+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:25:10.535+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:25:10.534+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:25:10.554+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:25:10.553+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:25:10.579+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.818 seconds
+[2024-01-27T13:25:41.336+0000] {processor.py:161} INFO - Started process (PID=58472) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:25:41.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:25:41.339+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:25:41.338+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:25:41.827+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:25:41.826+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-1pkwuri6 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:25:42.023+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:25:42.022+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:25:42.974+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:25:42.992+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:25:42.992+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:25:43.011+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:25:43.011+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:25:43.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.699 seconds
+[2024-01-27T13:26:15.176+0000] {processor.py:161} INFO - Started process (PID=58803) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:26:15.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:26:15.178+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:26:15.178+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:26:15.764+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:26:15.764+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-naveump3 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:26:15.987+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:26:15.986+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:26:17.330+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:26:17.350+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:26:17.350+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:26:17.375+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:26:17.375+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:26:17.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 2.229 seconds
+[2024-01-27T13:26:47.574+0000] {processor.py:161} INFO - Started process (PID=59162) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:26:47.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:26:47.577+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:26:47.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:26:47.956+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:26:47.955+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-cf47e0om because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:26:48.172+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:26:48.171+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:26:49.213+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:26:49.231+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:26:49.231+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:26:49.255+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:26:49.254+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:26:49.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.713 seconds
+[2024-01-27T13:27:28.706+0000] {processor.py:161} INFO - Started process (PID=59516) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:27:28.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:27:28.708+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:27:28.708+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:27:29.141+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:27:29.140+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-1q0k1_fc because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:27:29.378+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:27:29.378+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:27:30.444+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:27:30.469+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:27:30.469+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:27:30.493+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:27:30.493+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:27:30.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.835 seconds
+[2024-01-27T13:28:00.630+0000] {processor.py:161} INFO - Started process (PID=59855) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:28:00.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:28:00.633+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:28:00.632+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:28:01.127+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:28:01.126+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-z_tgxtud because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:28:01.412+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:28:01.412+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:28:02.719+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:28:02.744+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:28:02.744+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:28:02.768+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:28:02.768+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:28:02.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 2.166 seconds
+[2024-01-27T13:28:33.660+0000] {processor.py:161} INFO - Started process (PID=60218) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:28:33.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:28:33.663+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:28:33.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:28:34.099+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:28:34.098+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-7a37e8vc because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:28:34.323+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:28:34.322+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:28:35.638+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:28:35.655+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:28:35.655+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:28:35.677+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:28:35.677+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:28:35.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 2.043 seconds
+[2024-01-27T13:29:06.103+0000] {processor.py:161} INFO - Started process (PID=60594) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:29:06.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:29:06.105+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:29:06.105+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:29:06.735+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:29:06.735+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-_53xvd7g because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:29:06.973+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:29:06.972+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:29:08.150+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:29:08.167+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:29:08.167+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:29:08.187+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:29:08.186+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:29:08.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 2.116 seconds
+[2024-01-27T13:29:38.754+0000] {processor.py:161} INFO - Started process (PID=60915) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:29:38.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:29:38.758+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:29:38.758+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:29:39.266+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:29:39.265+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-joy_t7q8 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:29:39.641+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:29:39.641+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:29:40.922+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:29:40.949+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:29:40.947+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:29:40.980+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:29:40.979+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:29:41.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 2.257 seconds
+[2024-01-27T13:30:11.618+0000] {processor.py:161} INFO - Started process (PID=61244) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:30:11.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:30:11.620+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:30:11.620+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:30:11.985+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:30:11.985+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-metw835s because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:30:12.202+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:30:12.202+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:30:13.386+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:30:13.411+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:30:13.410+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:30:13.440+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:30:13.439+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:30:13.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.858 seconds
+[2024-01-27T13:30:44.270+0000] {processor.py:161} INFO - Started process (PID=61555) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:30:44.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:30:44.273+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:30:44.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:30:44.718+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:30:44.717+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-aj7a3wam because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:30:44.908+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:30:44.908+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:30:46.293+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:30:46.338+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:30:46.335+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:30:46.383+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:30:46.382+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:30:46.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 2.201 seconds
+[2024-01-27T13:31:16.613+0000] {processor.py:161} INFO - Started process (PID=61867) to work on /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:31:16.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sales_forecast_pipeline.py for tasks to queue
+[2024-01-27T13:31:16.615+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:31:16.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:31:16.944+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:31:16.944+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-l2ct04vh because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-01-27T13:31:17.134+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:31:17.134+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-01-27T13:31:18.029+0000] {processor.py:840} INFO - DAG(s) 'sales_forecast_pipeline' retrieved from /opt/airflow/dags/sales_forecast_pipeline.py
+[2024-01-27T13:31:18.046+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:31:18.046+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-01-27T13:31:18.065+0000] {logging_mixin.py:188} INFO - [2024-01-27T13:31:18.064+0000] {dag.py:3823} INFO - Setting next_dagrun for sales_forecast_pipeline to 2024-01-01 06:00:00+00:00, run_after=2024-02-01 06:00:00+00:00
+[2024-01-27T13:31:18.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sales_forecast_pipeline.py took 1.481 seconds
