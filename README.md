@@ -10,3 +10,21 @@ An extract-transform-load (ETL) pipeline is built to collect the business data. 
 Using Airflow, the entire flow of data from the source up to the Power BI dashboard is automated. The scripts are set to run monthy (every first day of the month at 6 AM). 
 
 ![Alt text](images/airflow.png)
+
+## To Run
+1. Build the docker image:
+```bash
+docker-compose build
+```
+
+2. Initialize Airflow:
+```bash
+docker-compose up airflow-init
+```
+
+3. Run docker-compose:
+```bash
+docker-compose up
+```
+
+4. Go to `localhost:8080` in your browser, enter the credentials, and look for the sales_forecast_pipeline DAG.
