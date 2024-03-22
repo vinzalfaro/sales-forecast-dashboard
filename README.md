@@ -5,7 +5,7 @@ An extract-transform-load (ETL) pipeline is built to collect the business data. 
 
 ![Alt text](images/dashboard.png)
 
-Using Airflow, the entire flow of data from the source up to the Power BI dashboard is automated. The scripts are set to run monthly (every first day of the month at 6 AM). 
+Using Airflow, the entire flow of data from the source up to the Postgres database is automated. The scripts are set to run monthly (every first day of the month at 6 AM). 
 
 ![Alt text](images/airflow.png)
 
