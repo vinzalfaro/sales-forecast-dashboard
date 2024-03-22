@@ -1,0 +1,112 @@
+[2024-02-28T03:26:38.113+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:26:38.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:26:38.128+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:26:38.117+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:26:38.573+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:26:38.573+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-_e4zq3yr because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:26:39.733+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:26:39.733+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:26:54.309+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:26:54.328+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 16.186 seconds
+[2024-02-28T03:27:25.178+0000] {processor.py:161} INFO - Started process (PID=496) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:27:25.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:27:25.189+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:27:25.188+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:27:25.776+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:27:25.776+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-vuh7xh40 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:27:26.305+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:27:26.305+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:27:30.678+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:27:30.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 5.567 seconds
+[2024-02-28T03:28:01.193+0000] {processor.py:161} INFO - Started process (PID=818) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:28:01.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:28:01.208+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:28:01.207+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:28:01.657+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:28:01.656+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-j0mnznek because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:28:02.244+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:28:02.243+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:28:12.739+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:28:12.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 11.625 seconds
+[2024-02-28T03:28:43.561+0000] {processor.py:161} INFO - Started process (PID=1151) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:28:43.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:28:43.582+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:28:43.582+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:28:44.305+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:28:44.304+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-88aqyaay because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:28:45.152+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:28:45.152+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:28:50.318+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:28:50.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 6.788 seconds
+[2024-02-28T03:29:21.416+0000] {processor.py:161} INFO - Started process (PID=1475) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:29:21.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:29:21.421+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:29:21.420+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:29:21.733+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:29:21.721+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-uo7w53kz because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:29:22.334+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:29:22.334+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:29:25.044+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:29:25.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 3.656 seconds
+[2024-02-28T03:29:55.547+0000] {processor.py:161} INFO - Started process (PID=1804) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:29:55.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:29:55.550+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:29:55.550+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:29:55.658+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:29:55.658+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-opq17qwq because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:29:55.839+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:29:55.839+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:29:56.642+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:29:56.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 1.112 seconds
+[2024-02-28T03:30:26.839+0000] {processor.py:161} INFO - Started process (PID=2115) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:30:26.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:30:26.842+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:30:26.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:30:26.957+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:30:26.956+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-k5wh25nh because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:30:27.125+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:30:27.125+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:30:27.972+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:30:27.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 1.147 seconds
+[2024-02-28T03:30:58.079+0000] {processor.py:161} INFO - Started process (PID=2426) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:30:58.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:30:58.083+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:30:58.082+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:30:58.211+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:30:58.211+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-yp98cu63 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:30:58.425+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:30:58.425+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:30:59.539+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:30:59.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 1.475 seconds
+[2024-02-28T03:31:29.954+0000] {processor.py:161} INFO - Started process (PID=2737) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:31:29.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:31:29.956+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:31:29.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:31:30.138+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:31:30.137+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-hz7rlbio because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:31:30.464+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:31:30.464+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:31:31.666+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:31:31.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 1.729 seconds
+[2024-02-28T03:32:07.610+0000] {processor.py:161} INFO - Started process (PID=3071) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:32:07.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:32:07.616+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:32:07.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:32:07.934+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:32:07.933+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-n964eocj because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:32:11.000+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:32:10.999+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:32:12.915+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:32:12.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 5.337 seconds
+[2024-02-28T03:32:43.104+0000] {processor.py:161} INFO - Started process (PID=3429) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:32:43.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:32:43.112+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:32:43.109+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:32:43.243+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:32:43.242+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-9l_5wngv because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:32:43.409+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:32:43.409+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:32:44.320+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:32:44.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 1.233 seconds
+[2024-02-28T03:33:15.037+0000] {processor.py:161} INFO - Started process (PID=3740) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:33:15.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:33:15.039+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:33:15.039+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:33:15.180+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:33:15.180+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-qcs5543j because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:33:15.564+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:33:15.564+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:33:16.581+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:33:16.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 1.562 seconds
+[2024-02-28T03:33:46.703+0000] {processor.py:161} INFO - Started process (PID=4111) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:33:46.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:33:46.705+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:33:46.705+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:33:46.843+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:33:46.843+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-1v3z7z9j because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:33:47.210+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:33:47.210+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:33:48.254+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:33:48.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 1.566 seconds
+[2024-02-28T03:34:18.536+0000] {processor.py:161} INFO - Started process (PID=4455) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:34:18.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:34:18.540+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:34:18.538+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:34:18.814+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:34:18.814+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-34mi8nkl because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:34:19.073+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:34:19.072+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:34:20.378+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:34:20.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 1.857 seconds
+[2024-02-28T03:34:51.266+0000] {processor.py:161} INFO - Started process (PID=4784) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:34:51.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:34:51.268+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:34:51.268+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:34:51.499+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:34:51.499+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-198s99jo because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:34:51.668+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:34:51.668+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:34:52.561+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:34:52.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 1.308 seconds
+[2024-02-28T03:35:22.789+0000] {processor.py:161} INFO - Started process (PID=5095) to work on /opt/airflow/dags/eda.py
+[2024-02-28T03:35:22.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eda.py for tasks to queue
+[2024-02-28T03:35:22.792+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:35:22.792+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/eda.py
+[2024-02-28T03:35:23.202+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:35:23.201+0000] {__init__.py:531} WARNING - Matplotlib created a temporary cache directory at /tmp/matplotlib-f9zhih_v because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2024-02-28T03:35:23.434+0000] {logging_mixin.py:188} INFO - [2024-02-28T03:35:23.434+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-02-28T03:35:24.434+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/eda.py
+[2024-02-28T03:35:24.445+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eda.py took 1.665 seconds
